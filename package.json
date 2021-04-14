@@ -1,11 +1,11 @@
 {
-  "name": "egg-scripts",
+  "name": "egg-scripts-plus",
   "version": "2.13.0",
   "description": "deploy tool for egg project",
   "main": "index.js",
   "bin": {
-    "egg-scripts": "bin/egg-scripts.js",
-    "eggctl": "bin/egg-scripts.js"
+    "egg-scripts-plus": "bin/egg-scripts.js",
+    "eggctl-plus": "bin/egg-scripts.js"
   },
   "dependencies": {
     "await-event": "^2.1.0",
@@ -53,11 +53,11 @@
   "bug": {
     "url": "https://github.com/eggjs/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-scripts",
+  "homepage": "https://github.com/hex-ci/egg-scripts-plus",
   "repository": {
     "type": "git",
-    "url": "git@github.com:eggjs/egg-scripts.git"
+    "url": "git@github.com:hex-ci/egg-scripts-plus.git"
   },
-  "author": "TZ <atian25@qq.com>",
+  "author": "Hex",
   "license": "MIT"
 }

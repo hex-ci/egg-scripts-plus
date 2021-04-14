@@ -1,24 +1,22 @@
-# egg-scripts
+# egg-scripts-plus
 
 deploy tool for egg project.
-
-**Note: Windows is partially supported, see [#22](https://github.com/eggjs/egg-scripts/pull/22)**
 
 ## Install
 
 ```bash
-$ npm i egg-scripts --save
+$ npm i egg-scripts-plus --save
 ```
 
 ## Usage
 
-Add `eggctl` to `package.json` scripts:
+Add `eggctl-plus` to `package.json` scripts:
 
 ```json
 {
   "scripts": {
-    "start": "eggctl start --daemon",
-    "stop": "eggctl stop"
+    "start": "eggctl-plus start --daemon",
+    "stop": "eggctl-plus stop"
   }
 }
 ```
@@ -28,7 +26,7 @@ Then run as:
 - `npm start`
 - `npm stop`
 
-**Note:** `egg-scripts` is not recommended to install global, you should install and use it as npm scripts.
+**Note:** `egg-scripts-plus` is not recommended to install global, you should install and use it as npm scripts.
 
 ## Command
 
@@ -37,7 +35,7 @@ Then run as:
 Start egg at prod mode.
 
 ```bash
-$ eggctl start [options] [baseDir]
+$ eggctl-plus start [options] [baseDir]
 # Usage
 # eggctl start --port=7001
 # eggctl start ./server
@@ -67,7 +65,7 @@ Stop egg gracefull.
 
 ```bash
 # stop egg
-$ eggctl stop [--title=example]
+$ eggctl-plus stop [--title=example]
 ```
 
 - **Options**
@@ -87,7 +85,6 @@ In addition to the command line specification, options can also be specified in 
 }
 ```
 
-
 ## Questions & Suggestions
 
 Please open an issue [here](https://github.com/eggjs/egg/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
@@ -95,4 +92,3 @@ Please open an issue [here](https://github.com/eggjs/egg/issues?q=is%3Aissue+is%
 ## License
 
 [MIT](LICENSE)
-
